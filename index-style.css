@@ -1,0 +1,113 @@
+body {
+    width:auto;
+    height:2000px;
+    margin: 0px;
+    border: 10px solid;
+    border-color: red;
+    color: white;
+    background-color: black;
+}
+
+h1.welcome {
+    margin-top: 100px;
+    font-size: 45pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow:
+    3px 3px 0 #ff0000,
+    -1px -1px 0 #ff0000,  
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
+}
+
+button
+{
+    background-color: white;
+}
+
+div.btns {
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+div.btns button
+{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 30pt;
+    margin-left: 20px;
+    border: 3px solid red;
+    background-color: white;
+    border-radius: 40%;
+}
+
+div.btns button:hover
+{
+    background-color: rgb(48, 48, 48);
+    transition: 0.3s;
+    box-shadow: 0 0 0 4px red;
+}
+
+div.trcorner
+{
+    width: 30%;
+    height: 80px;
+    position: fixed;
+    margin-left: 68.62%;
+    border: 5px solid red;
+    margin-top: 0px;
+    background-color:#121a44;
+}
+
+div.trcorner button
+{
+    float: right;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+div.trcorner p
+{
+    margin-top: 60px;
+    color: white;
+    font-weight: 900;
+}
+
+#profilebtn
+{
+    background-image: url(Images/default.png);
+    background-size: cover;
+}
+
+div.btns a
+{
+    text-decoration:none;
+    font-weight: 600;
+}
+
+div.trcorner button:hover
+{
+    background-color: rgb(48, 48, 48);
+    transition: 0.3s;
+    box-shadow: 0 0 0 4px red;
+}
+
+#headimg-div
+{
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    position: absolute;
+    left: 48%;
+    background-image: url(Images/index-icon.png);
+    background-size: cover;
+    filter: invert(100%);
+}
